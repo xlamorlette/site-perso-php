@@ -1,0 +1,37 @@
+page exemple 3
+page exemple montrant un listing automatique de fichiers
+<center><h3>Exemple de listing automatique de fichier</h3></center>
+
+<dl>Voici les fichiers contenus dans ce répertoire :
+<?
+    $tableauNoms = Array();
+    $repertoire = opendir("./");
+    while ($nomFichier = readdir($repertoire)) {
+        if ($nomFichier != "." && $nomFichier != ".." && $nomFichier != "index.txt" && $nomFichier != "index.php") {
+            $tableauNoms[$nomFichier] = $nomFichier;
+        }
+    }
+    closedir($repertoire);
+    if (count($tableauNoms) > 0) {
+        asort($tableauNoms);
+        foreach($tableauNoms as $nomFichier) {
+            print("<dd>- <a href=\"$nomFichier\">$nomFichier</a> (");
+            printf("%.1f", filesize($nomFichier) / 1024 / 1024);
+            print(" Mo).</dd>\n");
+        }
+    } else {
+        print("<dd>- aucun fichier disponible !</dd>\n");
+    }
+?>
+</dl>
+
+<p><i>On ne le voit pas bien avec les fichiers exemples, mais leurs tailles sont calculées automatiquement.</i></p> 
+
+<p>On peut aussi lier spécifiquement un fichier :
+<?
+$nomFichier = "fichier1.txt";
+echo "<a href=\"$nomFichier\">$nomFichier</a> (";
+printf("%.1f", filesize($nomFichier) / 1024 / 1024);
+echo " Mo).\n";
+?>
+</p>

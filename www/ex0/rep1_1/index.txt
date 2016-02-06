@@ -1,0 +1,13 @@
+répertoire exemple 1.1
+Sous-répertoire exemple
+<center><h3>Exemple de sous-répertoire</h3></center>
+
+<ul>Voici les répertoires et pages contenus dans ce sous-répertoire :
+<?
+$structure = litStructureSite("./");
+foreach($structure as $page)
+{
+  affichePage($page, "");
+}
+?>
+</ul>

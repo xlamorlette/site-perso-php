@@ -1,0 +1,46 @@
+page exemple 2
+page exemple montrant la mise en forme automatique de code
+<center><h3>Exemple de mise en forme autimatique de code</h3></center>
+
+<p>Pour mettre en forme les extraits de code, on utilise <a href="https://highlightjs.org/">highlight.js</a> (distribué sous <a href="../highlight.js BSD License.txt">license BSD).</p>
+
+Exemple d'extrait de code CSS :
+<pre><code class="css">&lt;ul class="nav nav-tabs nav-justified" role="navigation"&gt;
+  &lt;li class="active"&gt;&lt;a href="#premier" data-toggle="tab"&gt;&lt;i class="fa fa-home fa-lg"&gt;&lt;/i&gt; Premier onglet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#deuxieme" data-toggle="tab"&gt;&lt;i class="fa fa-list fa-lg"&gt;&lt;/i&gt; Deuxième onglet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#troisieme" data-toggle="tab"&gt;&lt;i class="fa fa-book fa-lg"&gt;&lt;/i&gt; Troisième onglet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+Exemple d'extrait de code JavaScript :
+<pre><code class="js">function ajusteAffichage()
+{
+  var hauteurFenetre = $(window).height();
+  var hauteurTete = $("#tete").outerHeight();
+  var hauteurPied = $("#pied").outerHeight();
+
+  var paddingTopPrincipale = 0;
+  var paddingBottomPrincipale = 0;
+  var ratio = (hauteurTete + hauteurPied) * 100 / hauteurFenetre;
+  $("#ratio").text(ratio.toFixed(1) + "%");
+
+  if (ratio > 33)
+  {
+    $("#tete").removeClass("navbar-fixed-top");
+    $("#pied").removeClass("navbar-fixed-bottom");
+    $("#principale").css("min-height", "0");
+    paddingTopPrincipale = 10;
+  }
+  else
+  {
+    $("#tete").addClass("navbar-fixed-top");
+    $("#pied").addClass("navbar-fixed-bottom");
+    $("#principale").css("min-height", "100%");
+    paddingTopPrincipale = hauteurTete + 10;
+    paddingBottomPrincipale = hauteurPied;
+  }
+
+  $("#principale").css("padding-top", paddingTopPrincipale + "px");
+  $("#principale").css("padding-bottom", paddingBottomPrincipale + "px");
+}
+</code></pre>

@@ -1,0 +1,76 @@
+page exemple 1
+page exemple montrant un sommaire et des sections automatiques
+<center><h3>Exemple de sommaire et sections automatiques</h3></center>
+
+*sommaire
+
++Section 1
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus egestas nibh, a fringilla arcu bibendum sit amet. In sed dignissim justo. Praesent porttitor risus ac massa accumsan, eget tempor erat viverra. Sed volutpat feugiat sem eget faucibus. Maecenas non dapibus leo. Donec in odio nisl. Nullam ultricies, orci et tempor efficitur, risus erat mattis diam, non elementum ante nisl nec felis. Aliquam sed lobortis libero. Pellentesque porttitor rutrum felis vel congue. Donec fermentum rhoncus volutpat. Ut suscipit, orci a tincidunt varius, nisi turpis semper turpis, sed interdum ipsum eros ut nibh. Mauris cursus metus sit amet consectetur scelerisque. Aliquam commodo tellus nec quam lacinia, nec commodo odio interdum. Ut varius tellus ut imperdiet hendrerit.</p>
+
+<p>Aenean id sodales ante, id ornare justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus at nisi nec pharetra. Aliquam finibus suscipit justo, non tincidunt mi gravida at. Morbi finibus lacus eget orci pretium tincidunt. Duis efficitur viverra erat, eget varius purus egestas nec. Phasellus luctus porttitor magna in tincidunt. Maecenas ultrices tellus non pulvinar iaculis.</p> 
+
+
++Section 2+Titre différent de la balise pour la section 2
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros nulla, posuere sit amet posuere ut, convallis et tellus.</p>
+
+<p>Morbi sollicitudin lacus scelerisque purus porta gravida. Fusce vulputate lorem ut nisi molestie blandit.</p>
+
+++Section 2.1
+
++++Section 2.1.1
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros nulla, posuere sit amet posuere ut, convallis et tellus.</p>
+
+<p>Morbi sollicitudin lacus scelerisque purus porta gravida. Fusce vulputate lorem ut nisi molestie blandit.</p>
+
+++Section 2.2
+<p>Donec faucibus id felis eu eleifend. Quisque non arcu id enim pharetra interdum eu nec erat.</p>
+
+<p>Praesent ultricies tellus nec magna aliquet, in ornare turpis fermentum. Vivamus faucibus, tortor in sodales pellentesque, justo metus venenatis nisi, ac bibendum massa urna ut lorem.</p>
+
+<p>Donec faucibus id felis eu eleifend. Quisque non arcu id enim pharetra interdum eu nec erat.</p>
+
+<p>Praesent ultricies tellus nec magna aliquet, in ornare turpis fermentum. Vivamus faucibus, tortor in sodales pellentesque, justo metus venenatis nisi, ac bibendum massa urna ut lorem.</p>
+
+<p>Duis feugiat laoreet orci. Sed dapibus neque quis leo fermentum, et semper mauris convallis.</p>
+
+<p>Quisque molestie tincidunt justo eget viverra. Cras bibendum, risus nec ultrices fermentum, lacus eros convallis magna, sed euismod ipsum sem venenatis mauris.</p>
+
+<p>Morbi iaculis dolor justo, in commodo risus vehicula vel. Vestibulum felis leo, suscipit eget cursus at, ultrices et turpis.</p>
+
+<p>Nulla feugiat massa quis odio tincidunt, eu fermentum erat pellentesque. Nam sit amet dapibus tortor, ac iaculis nulla.</p>
+
+<p>Nam ultrices mauris non libero posuere, sit amet ullamcorper mi tristique. Suspendisse nec lobortis leo.</p>
+
+<p>Integer accumsan luctus neque, ac rutrum urna.</p>
+
+<p>Donec iaculis arcu tortor, eget dictum risus rhoncus vitae. Maecenas ullamcorper risus in ante eleifend efficitur.</p>
+
+<p>Ut at magna sed dolor efficitur condimentum eu porta tortor. Suspendisse vitae augue mi.</p>
+
+<p>Fusce vestibulum urna id lobortis sollicitudin. Nunc lacinia magna nibh, ut fermentum nisl rutrum ut.</p>
+
+<p>Vestibulum vitae leo tincidunt, luctus mauris non, commodo sem. Sed sit amet ex vitae nisl ultricies congue.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus accumsan consequat.</p>
+
+<p>Sed a eros non eros venenatis fringilla et nec diam. Sed magna nisi, dignissim eu ante eget, tincidunt bibendum tortor.</p>
+
+<p>Aliquam consectetur lectus id metus maximus egestas. Suspendisse ut ligula vitae ex dictum rutrum.</p>
+
+<p>Maecenas eget libero vel libero euismod maximus id et diam.</p> 
+
+<p>Duis feugiat laoreet orci. Sed dapibus neque quis leo fermentum, et semper mauris convallis.</p>
+
+<p>Quisque molestie tincidunt justo eget viverra. Cras bibendum, risus nec ultrices fermentum, lacus eros convallis magna, sed euismod ipsum sem venenatis mauris.</p>
+
+<p>Morbi iaculis dolor justo, in commodo risus vehicula vel. Vestibulum felis leo, suscipit eget cursus at, ultrices et turpis.</p>
+
+<p>Nulla feugiat massa quis odio tincidunt, eu fermentum erat pellentesque. Nam sit amet dapibus tortor, ac iaculis nulla.</p>
+
+<p>Nam ultrices mauris non libero posuere, sit amet ullamcorper mi tristique. Suspendisse nec lobortis leo.</p>
+
+<p>Integer accumsan luctus neque, ac rutrum urna.</p>
+
+<p>Donec iaculis arcu tortor, eget dictum risus rhoncus vitae. Maecenas ullamcorper risus in ante eleifend efficitur.</p>
+
+<p>Ut at magna sed dolor efficitur condimentum eu porta tortor. Suspendisse vitae augue mi.</p>

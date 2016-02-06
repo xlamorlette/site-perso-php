@@ -1,0 +1,3 @@
+répertoire exemple 1.2
+Sous-répertoire exemple
+Voici une simple page.

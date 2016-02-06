@@ -1,0 +1,15 @@
+
+
+<center><h3>Accueil</h3></center>
+
+Bienvenue sur mon site personnel.<br/>
+Vous y trouverez les pages suivantes :
+<ul>
+<?
+$structure = litStructureSite("./");
+foreach($structure as $page)
+{
+  affichePage($page, "");
+}
+?>
+</ul>

@@ -1,0 +1,13 @@
+répertoire exemple 1
+Répertoire exemple montrant le fonctionnement d'une arborescence à plusieurs niveaux
+<center><h3>Exemple d'arborescence à plusieurs niveaux</h3></center>
+
+<ul>Voici l'arborescence des répertoires et pages contenus dans ce répertoire :
+<?
+$structure = litStructureSite("./");
+foreach($structure as $page)
+{
+  affichePage($page, "");
+}
+?>
+</ul>
