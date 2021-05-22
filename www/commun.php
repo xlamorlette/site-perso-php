@@ -218,7 +218,8 @@ while ($ligne = fgets($fichier))
 }
 ?>
 
-      <p><i>Pour tout commentaire, vous pouvez m'écrire à xavier.lamorlette@gmail.com.</i></p>
+      <p><i>Le contenu de ce site est, en tant qu'œuvre originale de l'esprit, protégé par le droit d'auteur.<br/>
+          Pour tout commentaire, vous pouvez m'écrire à xavier.lamorlette@gmail.com.</i></p>
     </div>
   </body>
 </html>
