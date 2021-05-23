@@ -1,5 +1,6 @@
 
 
+
 <center><h3>Accueil</h3></center>
 
 <p>Bienvenue sur mon site personnel.<br/>
@@ -7,9 +8,7 @@ Vous y trouverez les pages suivantes :</p>
 
 <ul>
 <?
-$structure = read_site_structure("./");
-foreach ($structure as $page) {
-    display_page_and_sub_pages_links($page, "");
-}
+$site_structure = read_structure("./");
+display_structure($site_structure);
 ?>
 </ul>

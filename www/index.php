@@ -1,5 +1,5 @@
 <?
-  $racine = "./";
-  $categories = NULL;
-  require_once($racine . "commun.php");
+  $root = "./";
+  $$path_elements = NULL;
+  require_once($racine . "common.php");
 ?>
