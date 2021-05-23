@@ -33,14 +33,18 @@ function analyse_page_structure_tag($line,
             $link = substr($line, 0, $pos);
             $title = substr($line, $pos + 1);
         }
-        $link = replace_spaces($link);
+        $link = replace_characters_for_link($link);
         return true;
     } else {
         return false;
     }
 }
 
-function replace_spaces($link) {
-    return str_replace(" ", "_", $link);
+function replace_characters_for_link($link) {
+    $link = str_replace(" ", "_", $link);
+    $link = str_replace("'", "_", $link);
+    $link = str_replace("<code>", "_", $link);
+    $link = str_replace("</code>", "_", $link);
+    return $link;
 }
 ?>

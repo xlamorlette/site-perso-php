@@ -1,14 +1,12 @@
 
 
 
-<center><h3>Accueil</h3></center>
+<h3 style="text-align:center;">Accueil</h3>
 
 <p>Bienvenue sur mon site personnel.<br/>
 Vous y trouverez les pages suivantes :</p>
 
-<ul>
 <?
 $site_structure = read_structure("./");
 display_structure($site_structure);
 ?>
-</ul>

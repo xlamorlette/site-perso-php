@@ -1,8 +1,10 @@
 <?
 function display_structure($structure) {
+    echo "<ul>\n";
     foreach ($structure as $page) {
         display_page_and_sub_pages_links($page, "");
     }
+    echo "</ul>\n";
 }
 
 function display_page_and_sub_pages_links($page, $current_url) {

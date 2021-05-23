@@ -7,9 +7,15 @@ body {
   margin-left: 0;
 }
 
+table {
+  border: 1px solid #000000;
+}
+
 th, td {
   font-family: Verdana, Charcoal, Geneva, "Luxi Sans", sans-serif;
   font-size: 12px;
+  padding: 1px;
+  border: 1px solid #000000;
 }
 
 a {
@@ -39,7 +45,6 @@ a:hover {
   margin-left: 5%;
   width: 200px;
   height: 30px;
-  /* background: url(squelettes/francois.png); */
   background-repeat: no-repeat;
   background-position: left center;
 }
@@ -58,20 +63,19 @@ a:hover {
   margin-right: 5%;
   width: 200px;
   height: 30px;
-  /* background: url(squelettes/agecanonix.png); */
   background-repeat: no-repeat;
   background-position: right center;
 }
 
 /* colonne de gauche, servant a la navigation */
-#navigation { 
+#navigation {
   margin: 0 0 0 5px;
   float: left;
   width: 200px;
 }
 
 /* marqueur de statistiques */
-#marqueurStats { 
+#marqueurStats {
   margin: 10px 5px 0 5px;
   float: right;
 }
@@ -99,7 +103,7 @@ li {
   padding-left: 20px;
 }
 
-/* Formattage du menu dans la colonne de gauche */
+/* formattage du menu dans la colonne de gauche */
 .menu {
   background: white;
   border: 1px solid #b9b9b9;
@@ -115,14 +119,14 @@ li {
   list-style: none;
 }
 
-/* Titre de menu */
+/* titre de menu */
 .menu-titre {
   font-weight: normal;
   font-style: italic;
   text-align: center;
 }
 
-/* Element de menu hors titre de rubrique */
+/* élement de menu hors titre de rubrique */
 .menu-item {
   text-align: left;
 }
@@ -131,7 +135,7 @@ li {
   text-align: center;
 }
 
-/* menu-item-0 a�3 : formatage des titres de rubrique */
+/* menu-item-0 à 3 : formatage des titres de rubrique */
 .menu-item-0 {
   font-weight: bold;
   padding-left: 0px;
@@ -153,12 +157,12 @@ li {
   padding-left: 30px;
 }
 
-/* Element (ou titre) de menu selectionne */
+/* élement (ou titre) de menu selectionné */
 .menu-selected {
   background: #d9ffd9;
 }
 
-/* sommaire-0 a�3 : formatage des elements du sommaire */
+/* sommaire-0 à 3 : formatage des éléments du sommaire */
 .sommaire-0 {
   font-weight: bold;
   padding-left: 0px;
@@ -179,7 +183,7 @@ li {
   padding-left: 30px;
 }
 
-/* police speciale pour les dates */
+/* police spéciale pour les dates */
 .date {
   font-style: italic;
   font-size: 80%;
@@ -189,6 +193,6 @@ li {
  text-align: justify;
 }
 
-.sous-titre { 
+.sous-titre {
   font-style: italic;
 }
