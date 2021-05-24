@@ -43,8 +43,13 @@ function analyse_page_structure_tag($line,
 function replace_characters_for_link($link) {
     $link = str_replace(" ", "_", $link);
     $link = str_replace("'", "_", $link);
-    $link = str_replace("<code>", "_", $link);
-    $link = str_replace("</code>", "_", $link);
+    $link = str_replace("{", "_", $link);
+    $link = str_replace("}", "_", $link);
+    $link = str_replace("[", "_", $link);
+    $link = str_replace("]", "_", $link);
+    $link = str_replace("&lt;=&gt;", "", $link);
+    $link = preg_replace("(<\w*>)", "", $link);
+    $link = preg_replace("(</\w*>)", "", $link);
     return $link;
 }
 ?>
